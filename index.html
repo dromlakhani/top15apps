@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 15 Useful Apps and Websites for Practicing Doctors in 2024</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: #1976D2;
+            color: white;
+            padding: 10px 20px;
+            z-index: 1000;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 1.5em;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+        
+        .reveal {
+            height: calc(100vh - 50px);
+            margin-top: 50px;
+            overflow: hidden;
+            position: relative;
+        }
+        .slides {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .slides > section {
+            display: none;
+            text-align: center;
+            padding: 40px;
+            width: 100%;
+            box-sizing: border-box;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            max-width: 1200px;
+        }
+        .slides > section.present {
+            display: block;
+        }
+        .app-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: left;
+        }
+        .app-details {
+            width: 60%;
+        }
+        .app-logo {
+            width: 35%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .logo-image {
+            width: 200px;
+            height: 200px;
+            object-fit: contain;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .app-link, .video-button {
+            display: inline-block;
+            padding: 12px 24px;
+            margin-top: 20px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        .app-link {
+            background: #2196F3;
+            color: white;
+        }
+        .app-link:hover {
+            background: #1976D2;
+        }
+        .video-button {
+            background: #FF0000;
+            color: white;
+        }
+        .video-button:hover {
+            background: #D32F2F;
+        }
+        .video-button::before {
+            content: '\f167';
+            font-family: 'Font Awesome 5 Brands';
+            margin-right: 10px;
+        }
+        .navigation {
+            position: fixed;
+            bottom: 40px;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            z-index: 1000;
+        }
+        .navigation button {
+            padding: 12px 24px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #2196F3;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+        .navigation button:hover {
+            background-color: #1976D2;
+        }
+        h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            color: #1976D2;
+        }
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            color: #1976D2;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .footer {
+            position: fixed;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            font-size: 1em;
+            color: #666;
+        }
+        .footer a {
+            color: #1976D2;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Top 15 Useful Apps and Websites for Practicing Doctors in 2024</h1>
+    </header>
+
+    <div class="reveal">
+        <div class="slides">
+            <div class="navigation">
+                <button id="prevBtn">Previous</button>
+                <button id="nextBtn">Next</button>
+            </div>
+            
+            <!-- Home Section -->
+            <section id="home" class="present">
+                <h1>Top 15 Useful Apps and Websites for Practicing Doctors in 2024</h1>
+                <p style="font-size: 1.5em;"><strong>by Dr. Om J Lakhani</strong></p>
+                <p style="font-size: 1.3em;">MD (Medicine), DrNB (Endocrinology)</p>
+                <p style="font-size: 1.3em;"><em>Endocrinologist / Technocrinologist</em></p>
+            </section>
+
+            <section>
+                <div style="background: #eee; width: 300px; height: 300px; display: flex; justify-content: center; align-items: center; margin: 0 auto; border-radius: 10px;">
+                    <p style="font-size: 1.5em;"><strong>QR Code Placeholder</strong></p>
+                </div>
+                <p style="font-size: 1.3em; margin-top: 30px;">This is an interactive presentation. You can follow this presentation from the link given in the QR code above.</p>
+            </section>
+
+            <section>
+                <h2>Outline of Today's Presentation</h2>
+                <ol style="font-size: 1.3em; text-align: left; max-width: 800px; margin: 0 auto;">
+                    <li>Rules we are using for today's list</li>
+                    <li>Ten useful apps for Practicing Doctors in 2024</li>
+                    <li>Five useful apps made by us / being made by us for Practicing Doctors in 2024</li>
+                    <li>Summary and Conclusion</li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>Rules for Today's List</h2>
+                <ul style="font-size: 1.3em; text-align: left; max-width: 800px; margin: 0 auto;">
+                    <li>We are not going to use the apps that are already well known like Uptodate, MDCalc, Medscape, ChatGPT etc</li>
+                    <li>All of them are not necessarily apps, some of them are websites</li>
+                    <li>Some apps use AI while others don't</li>
+                    <li>Some apps are free, some are paid. We have mentioned it accordingly</li>
+                </ul>
+            </section>
+
+            <!-- Top 10 Apps Section -->
+            <section id="top10">
+                <h2>Top 10 Useful Apps and Websites</h2>
+                <h3>for Practicing Consultant Doctors</h3>
+                <p>in 2024</p>
+            </section>
+
+            <section>
+                <div class="app-info">
+                    <div class="app-details">
+                        <h2>STORM (Stanford) ✨</h2>
+                        <p><strong>Elevator Pitch:</strong> AI-powered research tool for writing Wikipedia-like articles from scratch</p>
+                        <p><strong>Platforms:</strong> Web-based</p>
+                        <p><strong>Pricing:</strong> Free (Research preview)</p>
+                    </div>
+                    <div class="app-logo">
+                        <img src="https://storm-project.stanford.edu/images/logo.svg" alt="STORM Logo" class="logo-image">
+                        <a href="https://storm.genie.stanford.edu" target="_blank" class="app-link">Link to the App</a>
+                        <a href="https://youtu.be/-CzEBVayyPU" target="_blank" class="video-button">Watch Video</a>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="app-info">
+                    <div class="app-details">
+                        <h2>Perplexity ✨</h2>
+                        <p><strong>Elevator Pitch:</strong> AI-powered search engine for instant, accurate answers to medical queries</p>
+                        <p><strong>Platforms:</strong> Web, iOS, Android</p>
+                        <p><strong>Pricing:</strong> Freemium (Basic features free, Pro plan at $20/month)</p>
+                    </div>
+                    <div class="app-logo">
+                        <img src="https://logowik.com/content/uploads/images/perplexity4312.logowik.com.webp" alt="Perplexity Logo" class="logo-image">
+                        <a href="https://www.perplexity.ai" target="_blank" class="app-link">Link to the App</a>
+                        <a href="https://youtu.be/xm2-vjkfVmM" target="_blank" class="video-button">Watch Video</a>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="app-info">
+                    <div class="app-details">
+                        <h2>Picmonic</h2>
+                        <p><strong>Elevator Pitch:</strong> Visual learning platform for medical education using mnemonic picture cards</p>
+                        <p><strong>Platforms:</strong> iOS, Android, Web</p>
+                        <p><strong>Pricing:</strong> Subscription-based (Starting at $9.99/month)</p>
+                    </div>
+                    <div class="app-logo">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/PicmonicLogo.png" alt="Picmonic Logo" class="logo-image">
+                        <a href="https://www.picmonic.com" target="_blank" class="app-link">Link to the App</a>
+                        <a href="https://youtu.be/Hf9w2eeNlbI?si=cKzkw86jsQRFcr30" target="_blank" class="video-button">Watch Video</a>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="app-info">
+                    <div class="app-details">
+                        <h2>Dr. Gupta AI ✨</h2>
+                        <p><strong>Elevator Pitch:</strong> AI-powered virtual healthcare assistant for medical information and advice</p>
+                        <p><strong>Platforms:</strong> Web-based</p>
+                        <p><strong>Pricing:</strong> Free (as of last check)</p>
+                    </div>
+                    <div class="app-logo">
+                        <img src="https://cdn-1.webcatalog.io/catalog/dr-gupta-ai/dr-gupta-ai-icon-filled-256.webp?v=1714780560432" alt="Dr. Gupta AI Logo" class="logo-image">
+                        <a href="https://www.drgupta.ai" target="_blank" class="app-link">Link to the App</a>
+                        <a href="https://youtu.be/rDRzXdwlKWM" target="_blank" class="video-button">Watch Video</a>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="app-info">
+                    <div class="app-details">
+                        <h2>Figure1</h2>
+                        <p><strong>Elevator Pitch:</strong> Medical case-sharing platform for healthcare professionals to discuss and learn</p>
+                        <p><strong>Platforms:</strong> iOS, Android, Web</p>
+                        <p><strong>Pricing:</strong> Free for healthcare professionals</p>
+                    </div>
+                    <div class="app-logo">
+                        <img src="https://play-lh.googleusercontent.com/d282NJHkv_zi5KMsuRtebcfb4Xdc-vutzxL4FA4NXzX-2eeg1lYaxtCKLv-ERDALqTE=w480-h960-rw" alt="Figure1 Logo" class="logo-image">
+                        <a href="https://www.figure1.com" target="_blank" class="app-link">Link to the App</a>
+                        <a href="https://youtu.be/I2gRWZuFfWo" target="_blank" class="video-button">Watch Video</a>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="app-info">
+                    <div class="app-details">
+                        <h2>Read by QxMD</h2>
+                        <p><strong>Elevator Pitch:</strong> Personalized medical journal feed and research paper discovery tool</p>
+                        <p><strong>Platforms:</strong> iOS, Android, Web</p>
+                        <p><strong>Pricing:</strong> Freemium (Basic features free, Institutional subscriptions available)</p>
+                    </div>
+                    <div class="app-logo">
+                        <img src="https://play-lh.googleusercontent.com/HLwT-YhpGnuXDXVBoV8n3_vGzIW1TVflXGFiQqqdJnmNqHUZZHYhm53dKBRu40DLzA=s96-rw" alt="Read by QxMD Logo" class="logo-image">
+                        <a href="https://read.qxmd.com" target="_blank" class="app-link">Link to the App</a>
+                        <a href="https://youtu.be/93Zie052Hpg" target="_blank" class="video-button">Watch Video</a>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <div class="app-info">
+                    <div class="app-details">
+                        <h2>Prognosis: Your Diagnosis</h2>
+                        <p><strong>Elevator Pitch:</strong> Interactive medical case simulations for clinical decision-making practice</p>
+                        <p><strong>Platforms:</strong> iOS, Android</p>
+                        <p><strong>Pricing:</strong> Freemium (Basic cases free, Premium subscription available)</p>
+                    </div>
+                    <div class="app-logo">
+                        <img src="https://play-lh.googleusercontent.com/VhJsZ2BpzEtbxuxjP1gpYOttRpdw7KOzclPvrEq5RR5-Gs1-7zzwSY-voKf6np4y-OU=w480-h960-rw" alt="Prognosis Logo" class="logo-image">
+                        <a href="https://clinicalodyssey.com/title/prognosis-your-diagnosis" target="_blank" class="app-link">Link to the App</a>
+                        <a href="https://youtu.be/0AGhovLPpRM" target="_blank" class="video-button">Watch Video</a>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <div class="app-info">
+                    <div class="app-details">
+                        <h2>VisualDx ✨</h2>
+                        <p><strong>Elevator Pitch:</strong> Diagnostic clinical decision support system with extensive medical image library</p>
+                        <p><strong>Platforms:</strong> iOS, Android, Web</p>
+                        <p><strong>Pricing:</strong> Subscription-based (Contact for pricing)</p>
+                    </div>
+                    <div class="app-logo">
+                        <img src="https://play-lh.googleusercontent.com/iPscSojtyX4KtwQKiTkyjLELw8zf5padpRXb_F2QqUfoVHlh1P46AnoJahLKUZ-tKRA=w480-h960-rw" alt="VisualDx Logo" class="logo-image">
+                        <a href="https://www.visualdx.com" target="_blank" class="app-link">Link to the App</a>
+                        <a href="https://youtu.be/3GKmdUJ9nkw" target="_blank" class="video-button">Watch Video</a>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <div class="app-info">
+                    <div class="app-details">
+                        <h2>Pathway ✨</h2>
+                        <p><strong>Elevator Pitch:</strong> Evidence-based clinical decision support tool with guideline summaries</p>
+                        <p><strong>Platforms:</strong> iOS, Android, Web</p>
+                        <p><strong>Pricing:</strong> Subscription-based (Contact for pricing)</p>
+                    </div>
+                    <div class="app-logo">
+                        <img src="https://play-lh.googleusercontent.com/OpC6HVCTKKW49z0xTvvzF37uSTAJJjduJxLqAxI0tULv7Nhhxjds_qKQ67sU-yhfmg=w480-h960-rw" alt="Pathway Logo" class="logo-image">
+                        <a href="https://www.pathway.md/" target="_blank" class="app-link">Link to the App</a>
+                        <a href="https://youtu.be/LuMfsxqNP40" target="_blank" class="video-button">Watch Video</a>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <div class="app-info">
+                    <div class="app-details">
+                        <h2>Roam Research</h2>
+                        <p><strong>Elevator Pitch:</strong> Networked note-taking tool for organizing medical knowledge and research</p>
+                        <p><strong>Platforms:</strong> Web</p>
+                        <p><strong>Pricing:</strong> Subscription-based (Starting at $15/month)</p>
+                    </div>
+                    <div class="app-logo">
+                        <img src="https://mattgiaro.com/wp-content/uploads/2022/11/roam-research-logo-png.png" alt="Roam Research Logo" class="logo-image">
+                        <a href="https://roamresearch.com" target="_blank" class="app-link">Link to the App</a>
+                        <a href="https://youtu.be/IdiUw5mkjsI" target="_blank" class="video-button">Watch Video</a>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Our 5 Apps Section -->
+            <section id="top5">
+                <h2>Five Useful Apps and Websites</h2>
+                <h3>That we are developing</h3>
+                <p>in 2024</p>
+            </section>
+            
+            <section>
+                <div class="app-info">
+                    <div class="app-details">
+                        <h2>Pyraxio ✨</h2>
+                        <p><strong>Elevator Pitch:</strong> The general use AI for doctors by Dr. Om J Lakhani</p>
+                        <p><strong>Platforms:</strong> Web-based</p>
+                        <p><strong>Pricing:</strong> Contact for access (Password required)</p>
+                    </div>
+                    <div class="app-logo">
+                        <img src="https://i.ibb.co/gT1XX3X/doctors-AI-logo.png" alt="Pyraxio Logo" class="logo-image">
+                        <a href="https://dromlakhani.github.io/pyraxio/" target="_blank" class="app-link">Link to the App</a>
+                        <a href="https://youtu.be/JqZYwCByUXU" target="_blank" class="video-button">Watch Video</a>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <div class="app-info">
+                    <div class="app-details">
+                        <h2>CarbCounting AI ✨</h2>
+                        <p><strong>Elevator Pitch:</strong> Step-wise Carb Counting and Insulin dose calculator by Dr. Om J Lakhani</p>
+                        <p><strong>Platforms:</strong> Web-based</p>
+                        <p><strong>Pricing:</strong> Free (as of last check)</p>
+                    </div>
+                    <div class="app-logo">
+                        <img src="https://i.ibb.co/0GL9djc/carbcounting-AI-logo.png" alt="CarbCounting AI Logo" class="logo-image">
+                        <a href="https://carbcounting.streamlit.app/" target="_blank" class="app-link">Link to the App</a>
+                        <a href="https://youtu.be/9JpYROVf88I" target="_blank" class="video-button">Watch Video</a>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <div class="app-info">
+                    <div class="app-details">
+                        <h2>DiagnosisAI ✨</h2>
+                        <p><strong>Elevator Pitch:</strong> AI tool to help clinicians make the correct diagnosis. By Dr. Om J Lakhani</p>
+                        <p><strong>Platforms:</strong> Web-based</p>
+                        <p><strong>Pricing:</strong> Free (as of last check)</p>
+                    </div>
+                    <div class="app-logo">
+                        <img src="https://i.ibb.co/PDKgBk3/diagnosis-AI.png" alt="DiagnosisAI Logo" class="logo-image">
+                        <a href="https://dromlakhani.github.io/diagnosisai/" target="_blank" class="app-link">Link to the App</a>
+                        <a href="https://youtu.be/ClbPl7949Jg" target="_blank" class="video-button">Watch Video</a>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <div class="app-info">
+                    <div class="app-details">
+                        <h2>DrPyraxio: Clinical Assistant via WhatsApp ✨</h2>
+                        <p><strong>Elevator Pitch:</strong> Helps Doctors ask clinical queries via WhatsApp and give an answer with Pubmed references</p>
+                        <p><strong>Platforms:</strong> WhatsApp</p>
+                        <p><strong>Pricing:</strong> Coming soon</p>
+                    </div>
+                    <div class="app-logo">
+                        <img src="https://i.ibb.co/3sHfBTn/drpyraxio.jpg" alt="DrPyraxio Logo" class="logo-image">
+                        <a href="https://youtu.be/LqBTVbbClDI" target="_blank" class="video-button">Watch Video</a>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <div class="app-info">
+                    <div class="app-details">
+                        <h2>Bench2Website.com ✨</h2>
+                        <p><strong>Elevator Pitch:</strong> Convert your Research paper to useful interactive dashboard and Code</p>
+                        <p><strong>Platforms:</strong> Web-based</p>
+                        <p><strong>Pricing:</strong> Coming soon</p>
+                    </div>
+                    <div class="app-logo">
+                        <img src="https://i.ibb.co/tHqXf2w/fe16195391fc2fafa13dda452f79190c-webp-removebg-preview.png" alt="Bench2Website Logo" class="logo-image">
+                        <a href="https://endodynamic.streamlit.app/" target="_blank" class="app-link">Link to the App</a>
+                        <a href="https://youtu.be/cD8t1cib3i0" target="_blank" class="video-button">Watch Video</a>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- LinkedIn Slide -->
+            <section class="section">
+                <div class="app-info">
+                    <div class="app-details">
+                        <h2>LinkedIn</h2>
+                        <p><strong>Connect with Dr. Om J Lakhani</strong></p>
+                        <p>Stay updated with our latest professional insights and network with healthcare professionals.</p>
+                    </div>
+                    <div class="app-logo">
+                        <img src="https://i.ibb.co/QpBQpWL/Clean-Shot-2024-07-26-at-13-55-04-2x.png" alt="LinkedIn Profile" class="logo-image" style="width: 100%; max-width: 600px; height: auto;">
+                        <a href="https://www.linkedin.com/feed/" class="app-link" target="_blank">Visit LinkedIn Profile</a>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Twitter Slide -->
+            <section class="section">
+                <div class="app-info">
+                    <div class="app-details">
+                        <h2>Twitter</h2>
+                        <p><strong>Follow @omlakhani</strong></p>
+                        <p>Get real-time updates, share your thoughts, and engage with our community of medical professionals.</p>
+                    </div>
+                    <div class="app-logo">
+                        <img src="https://i.ibb.co/j8H5xQ8/Clean-Shot-2024-07-26-at-13-55-11-2x.png" alt="Twitter Profile" class="logo-image" style="width: 100%; max-width: 600px; height: auto;">
+                        <a href="https://x.com/omlakhani" class="app-link" target="_blank">Follow on Twitter</a>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- YouTube Slide -->
+            <section class="section">
+                <div class="app-info">
+                    <div class="app-details">
+                        <h2>YouTube</h2>
+                        <p><strong>Subscribe to Endocrinology India</strong></p>
+                        <p>Explore in-depth medical discussions, educational content, and the latest updates in endocrinology.</p>
+                    </div>
+                    <div class="app-logo">
+                        <img src="https://i.ibb.co/yncc205/Clean-Shot-2024-07-26-at-13-56-04-2x.png" alt="YouTube Channel" class="logo-image" style="width: 100%; max-width: 600px; height: auto;">
+                        <a href="https://www.youtube.com/@EndocrinologyIndia" class="app-link" target="_blank">Subscribe to Our Channel</a>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="app-info">
+                    <div class="app-details">
+                        <h2 style="font-size: 3em; margin-bottom: 0.5em;">Thank You!</h2>
+                        <p style="font-size: 1.5em; margin-bottom: 1em;"><strong>For Your Attention and Participation</strong></p>
+                        <p style="font-size: 1.2em;">Dr. Om J Lakhani</p>
+                        <p style="font-size: 1em;">MD (Medicine), DrNB (Endocrinology)</p>
+                        <p style="font-size: 1em;">Endocrinologist / Technocrinologist</p>
+                    </div>
+                    <div class="app-logo">
+                        <img src="https://i.ibb.co/gT1XX3X/doctors-AI-logo.png" alt="Thank You" class="logo-image" style="width: 200px; height: 200px;">
+                    </div>
+                </div>
+            </section>
+                        
+        </div>
+    </div>
+    
+    <footer class="footer">
+        © Dr. Om J Lakhani | <a href="https://x.com/omlakhani" target="_blank">Follow on Twitter</a>
+    </footer>
+    
+    <script>
+        // Simple reveal.js-like functionality
+        (function() {
+            let currentSlide = 0;
+            const slides = document.querySelectorAll('.slides > section');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            
+            function showSlide(index) {
+                slides[currentSlide].classList.remove('present');
+                slides[index].classList.add('present');
+                currentSlide = index;
+                updateButtonStates();
+            }
+            
+            function nextSlide() {
+                showSlide((currentSlide + 1) % slides.length);
+            }
+            
+            function prevSlide() {
+                showSlide((currentSlide - 1 + slides.length) % slides.length);
+            }
+            
+            function updateButtonStates() {
+                prevBtn.disabled = currentSlide === 0;
+                nextBtn.disabled = currentSlide === slides.length - 1;
+            }
+            
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'ArrowRight' || e.key === ' ') nextSlide();
+                if (e.key === 'ArrowLeft') prevSlide();
+            });
+            
+            prevBtn.addEventListener('click', prevSlide);
+            nextBtn.addEventListener('click', nextSlide);
+            
+            showSlide(0);
+        })();
+    </script>
+</body>
+</html>
